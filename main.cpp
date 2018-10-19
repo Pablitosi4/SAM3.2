@@ -1,14 +1,10 @@
 #include <iostream>
-int foo () {
-    std::cout << "Функция вызвана" << std::endl;
-}
-int poo ()  {
-    std::cout << foo()<< std::endl;
-    std::cout << foo()<< std::endl;
-    std::cout << foo()<< std::endl;
+incude <math>
+int foo (float m, float t, float x ) {
+    return (1/sqrt(2 * 3.14)) * exp(-pow(x - m), 2) / pow(t, 2);
 }
 int main() {
+    float m=2, t=3, x=4
+a=foo();
 
-        int a= poo();
-    return 0;
 }
